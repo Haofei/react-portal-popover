@@ -129,13 +129,4 @@ class OverlayTrigger extends React.Component {
   }
 }
 
-OverlayTrigger.propTypes = {
-  closeOnScroll: React.PropTypes.bool,
-  children: React.PropTypes.element.isRequired,
-  overlay: React.PropTypes.object.isRequired,
-  hideLabel: React.PropTypes.string,
-  showLabel: React.PropTypes.string,
-  label: React.PropTypes.string,
-};
-
 export default OverlayTrigger;

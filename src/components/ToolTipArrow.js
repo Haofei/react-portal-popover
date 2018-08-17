@@ -48,9 +48,4 @@ const ToolTipArrow = (props) => {
   return <span data-tooltip-arrow style={style} />;
 };
 
-ToolTipArrow.propTypes = {
-  options: React.PropTypes.object,
-  foreground: React.PropTypes.bool,
-};
-
 export default ToolTipArrow;

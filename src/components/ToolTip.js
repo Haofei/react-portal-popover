@@ -60,18 +60,4 @@ const ToolTip = (props) => {
   </div>);
 };
 
-ToolTip.propTypes = {
-  isOpened: React.PropTypes.bool,
-  readonly: React.PropTypes.bool,
-  small: React.PropTypes.bool,
-  onClose: React.PropTypes.func,
-  trigger: React.PropTypes.object,
-  id: React.PropTypes.string,
-  children: React.PropTypes.node,
-  label: React.PropTypes.string,
-  position: React.PropTypes.string,
-  size: React.PropTypes.number,
-  options: React.PropTypes.object,
-};
-
 export default ToolTip;

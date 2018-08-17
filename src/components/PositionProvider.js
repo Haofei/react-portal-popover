@@ -296,18 +296,4 @@ class PositionProvider extends React.Component {
   }
 }
 
-PositionProvider.propTypes = {
-  children: React.PropTypes.node,
-  target: React.PropTypes.object,
-  options: React.PropTypes.object,
-  position: React.PropTypes.string,
-  label: React.PropTypes.string,
-  id: React.PropTypes.string,
-  arrowSize: React.PropTypes.number,
-  arrowOffset: React.PropTypes.number,
-  boundary: React.PropTypes.number,
-  classes: React.PropTypes.string,
-  style: React.PropTypes.object,
-};
-
 export default PositionProvider;
